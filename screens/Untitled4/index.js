@@ -1,15 +1,20 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled4 = () => {
+  const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.ZtzEQPZX}></View><View style={styles.WffqsvFe}></View><View style={styles.BPIXpVsB}></View></ScrollView>
+    }}><View style={styles.ZtzEQPZX}></View><View style={styles.WffqsvFe}></View><Pressable onPress={() => {
+        navigation.navigate("Untitled5");
+      }}><View style={styles.BPIXpVsB}></View></Pressable></ScrollView>
     <Text style={styles.kKRnEwhd}>Pay/Exchange
 
     </Text></SafeAreaView>;
@@ -96,8 +101,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#65A1F0",
     borderRadius: 40,
     position: "absolute",
-    left: 144,
-    top: 469
+    left: 134,
+    top: 458
   },
   kKRnEwhd: {
     width: 100,
