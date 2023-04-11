@@ -10,7 +10,7 @@ const Untitled5 = () => {
       position: 'relative',
       flex: 1
     }}><TextInput style={styles.jQdUbKLP}></TextInput></ScrollView>
-    <TextInput style={styles.hsygNuKE}></TextInput></SafeAreaView>;
+    </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
