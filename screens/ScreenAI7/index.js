@@ -61,7 +61,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: 50
+    paddingTop: 50,
+    height: 520,
+    position: "absolute"
   },
   addButton: {
     width: 60,
@@ -74,17 +76,24 @@ const styles = StyleSheet.create({
     bottom: 20,
     right: 20,
     zIndex: 1,
-    left: 275,
-    top: 492
+    left: 142,
+    top: 11
   },
   addButtonText: {
     color: '#fff',
-    fontSize: 24
+    fontSize: 24,
+    width: 30,
+    height: 37,
+    textAlign: "center"
   },
   missionList: {
     flex: 1,
-    width: '100%',
-    paddingHorizontal: 20
+    width: 356,
+    paddingHorizontal: 20,
+    height: 427,
+    position: "absolute",
+    left: 0,
+    top: 86
   },
   missionBox: {
     flexDirection: 'row',
@@ -123,6 +132,42 @@ const styles = StyleSheet.create({
   missionNumber: {
     fontSize: 14,
     color: '#666'
+  },
+  gnDpUsAa: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777",
+    position: "relative",
+    top: 230,
+    left: 0
+  },
+  SKBrHxEF: {
+    position: "absolute",
+    width: 100,
+    height: 150,
+    left: 188,
+    top: 103
+  },
+  pWXlWBZO: {
+    width: "100%",
+    height: 60,
+    backgroundColor: "#FFFFFF"
+  },
+  jRyhyfIB: {
+    backgroundColor: "#000000",
+    height: 1
+  },
+  wZIUdQGW: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    left: -20,
+    top: 500
   }
 });
 export default MissionScreen;
